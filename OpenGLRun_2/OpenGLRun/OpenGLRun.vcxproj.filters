@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\1Started">
+      <UniqueIdentifier>{74f0c8fa-eae2-4d8b-9523-c86e6dbdc56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2Lighting">
+      <UniqueIdentifier>{46d6b50b-9135-4ede-a0bf-a0f64c2d77a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3Model">
+      <UniqueIdentifier>{1a8e1c09-b3cb-450c-9078-b5dfa0f6cc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4Advanced">
+      <UniqueIdentifier>{ddbb10cb-a866-4d02-9def-b7af127825e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\5AdvancedLighting">
+      <UniqueIdentifier>{1ed95a97-548b-497b-9426-f7a2a854298c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\glad\src\glad.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1Triangle.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="2Shaders.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="3Tex-practice.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4Transform.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="5Coordinate.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="4Trans-practice.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="6Camera.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="6Camera-Class.cpp">
+      <Filter>源文件\1Started</Filter>
+    </ClCompile>
+    <ClCompile Include="1Color.cpp">
+      <Filter>源文件\2Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="2BaseLight.cpp">
+      <Filter>源文件\2Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="3Materials.cpp">
+      <Filter>源文件\2Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="4maps.cpp">
+      <Filter>源文件\2Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="5Casters.cpp">
+      <Filter>源文件\2Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="6Lights.cpp">
+      <Filter>源文件\2Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="1Model.cpp">
+      <Filter>源文件\3Model</Filter>
+    </ClCompile>
+    <ClCompile Include="1DepthTest.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="4cull.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="6cubemap_refract.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="10Asteroids.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="11Anti-Aliasing.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="9Geometry.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="9geometry_exploding.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="1BlinnPhong.cpp">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </ClCompile>
+    <ClCompile Include="3ShadowMapping.cpp">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </ClCompile>
+    <ClCompile Include="2StencilTest.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="3Blending.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="5framebuffers.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="6cubemap_Model.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="8glsl.cpp">
+      <Filter>源文件\4Advanced</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="coordinate_systems.vs">
+      <Filter>源文件\1Started</Filter>
+    </None>
+    <None Include="coordinate_systems.fs">
+      <Filter>源文件\1Started</Filter>
+    </None>
+    <None Include="color.vs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="color.fs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="light_cube.vs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="light_cube.fs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="default.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="BaseLight-practice3.fs">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="BaseLight-practice3.vs">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="BlinnPhong.frag">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="BlinnPhong.vert">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="debug_quad.vert">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="debug_quad_depth.frag">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="shadow_mapping.frag">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="shadow_mapping.vert">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.frag">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.geom">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.vert">
+      <Filter>源文件\5AdvancedLighting</Filter>
+    </None>
+    <None Include="base_light.fs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="base_light.vs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="materials.vs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="materials.fs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="lighting_maps.fs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="lighting_maps.vs">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="light_casters.vert">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="light_casters.frag">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="light_mul.vert">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="light_mul.frag">
+      <Filter>源文件\2Lighting</Filter>
+    </None>
+    <None Include="Model_Load.vert">
+      <Filter>源文件\3Model</Filter>
+    </None>
+    <None Include="Model_Load.frag">
+      <Filter>源文件\3Model</Filter>
+    </None>
+    <None Include="depth_test.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="depth_test.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="stencil_outline.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="stencil_outline.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="stencil_test.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="stencil_test.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="blending.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="blending.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="framebuffers_screen.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="framebuffers_screen.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="framebuffers.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="framebuffers.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="cubemaps.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="cubemaps.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="glsl.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="green.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="yellow.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="blue.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="geometry.geom">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="geometry.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="geometry.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="geometry_exploding.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="geometry_exploding.geom">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="geometry_exploding.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="red.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="planet.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="planet.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="asteroids.vert">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+    <None Include="asteroids.frag">
+      <Filter>源文件\4Advanced</Filter>
+    </None>
+  </ItemGroup>
+</Project>
